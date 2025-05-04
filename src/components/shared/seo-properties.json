@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_seo_properties",
+  "info": {
+    "displayName": "SEO Properties"
+  },
+  "options": {},
+  "attributes": {
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    }
+  }
+}

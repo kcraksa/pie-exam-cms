@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_expertizes",
+  "info": {
+    "displayName": "Expertize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_of_expertize": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "illustration": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

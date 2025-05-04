@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_expertize_points",
+  "info": {
+    "displayName": "Expertize Points",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "point": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

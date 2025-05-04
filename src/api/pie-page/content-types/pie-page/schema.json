@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "pie_pages",
+  "info": {
+    "singularName": "pie-page",
+    "pluralName": "pie-pages",
+    "displayName": "Pie Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "expertize": {
+      "displayName": "Expertize",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.expertize"
+    },
+    "expertize_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.expertize-points"
+    },
+    "seo_properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo-properties"
+    }
+  }
+}
